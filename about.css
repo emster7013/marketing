@@ -105,6 +105,13 @@ a{
 	color: red;
 	background:rgba(78, 75, 75, 0.5);
 }
+img {
+	display: block;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 10rem;
+}
 .about-us3{
 	border: 1px solid black;
     width: 500px;
