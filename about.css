@@ -50,27 +50,33 @@ table {
 *{
 	box-sizing: border-box;
 }
+.whole{
+	background: #0f292f;
+}
+.logo{
+	margin-top: -28px;
+}
 .mainNav{
 	display: flexbox;
-	justify-content: space-between;
     text-decoration: none;
-    padding: 15px;
+	padding: 15px;
+	margin-top: 10px;
 	font-size: 1rem;
 	height: 1rem;
 	margin-bottom: 30px;
+	
 }
 
 a{
+	display: inline-block;
+	width: 10%;
+	margin-left: 150px;
 	text-decoration: none;
-    color: black;
+    color: #14A098;
 	font-family: Arial, Helvetica, sans-serif;
-	letter-spacing: 4px; 
+	letter-spacing: 2px;
 }
 
-.signUp{
-	float: right;
-      
-}
 
 .Main-content{
 	display: flex;
@@ -78,13 +84,21 @@ a{
     justify-content: center;
     align-items: center;
     width: 100%;
-	height: 20%;
 }
 .Main-content h2{
 	font-style: oblique;
 	font-size: 2rem;
 	text-align: center;
-	
+	background: none;
+}
+p{
+	background: none;
+}
+.main-header{
+	font-size: 2rem;
+	display: flex;
+	justify-content: center;
+	color: #cb2d6f;
 }
 .about-us{
 	border: 1px solid black;
@@ -92,7 +106,7 @@ a{
     height: 259px;
     margin: 40px 30px 20px 80px; ;
 	padding: 20px;
-	color:red;
+	color: #cccccc;
 	background:rgba(78, 75, 75, 0.5);
 }
 .about-us2{
@@ -102,7 +116,7 @@ a{
     padding: 20px;
     margin-left: 10px;
 	margin-top: 20px;
-	color: red;
+	color: #cccccc;
 	background:rgba(78, 75, 75, 0.5);
 }
 img {
@@ -110,7 +124,7 @@ img {
 	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
-	height: 10rem;
+	height: 8rem;
 }
 .about-us3{
 	border: 1px solid black;
@@ -118,7 +132,7 @@ img {
     height: 259px;
     padding: 20px;
 	margin-left: 110px;
-	color: red;
+	color: #cccccc;
 	background:rgba(78, 75, 75, 0.5);
 }
 .about-us4{
@@ -130,7 +144,7 @@ img {
     margin-right: 40px;
     margin-bottom: 46px;
 	margin-top: 35px;
-	color: red;
+	color: #cccccc;
 	background:rgba(78, 75, 75, 0.5);
 }
 .about-us5{
@@ -142,7 +156,7 @@ img {
     margin-right: 40px;
     margin-bottom: 46px;
 	margin-top: 205px;
-	color: red;
+	color: #cccccc;
 	background:rgba(78, 75, 75, 0.5);
 }
 
@@ -155,6 +169,79 @@ img {
     margin-right: 40px;
     margin-bottom: 6px;
 	margin-top: -308px;
-	color: red;
+	color: #cccccc;
 	background:rgba(78, 75, 75, 0.5);
+}
+
+/*CONTACT CSS*/
+.whole1{
+	background: #c53151;
+}
+.services-page h1, .idk{
+	display: flex;
+	justify-content: center;
+	color: snow;
+	font-size: 3rem;
+}
+.idk{ 
+	font-size: 1.5rem;
+	width: 50%;
+	text-align: center;
+	margin-left: 30%;
+	margin-top: 30px;
+}
+.aa{
+	display: inline-block;
+	justify-content: space-between;
+	width: 10%;
+	text-decoration: none;
+    color: yellow;
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing: 2px;
+}
+
+@media(max-width: 500px){
+	.logo{
+		margin-top: -48px;
+		margin-left: 90px;
+	}
+	.mainNav{
+		display: flexbox;
+		text-decoration: none;
+		font-size: 1rem;
+		height: 1rem;
+	}
+	
+	a{
+		
+		display: flex;
+		justify-content: center;
+		width: 90%;
+		margin-left: 10px;
+		margin-top: 30px;
+		text-decoration: none;
+		color: #4F86F7;
+		font-family: Arial, Helvetica, sans-serif;
+		letter-spacing: 2px;
+	}
+	a:hover{
+		background: #FF4466;
+		color:#84DE02;
+		box-shadow: -3px 3px rgba(78, 75, 75, 0.5), -2px 2px rgb(255, 3, 255), -1px 1px rgb(252, 2, 2);
+	}
+	
+	.about{
+		margin-top: 170px;
+	}
+	.about-us, .about-us2, .about-us3, .about-us4 {
+		border: 1px solid black;
+		width: 420px;
+		height: 250px;
+		margin: 40px 30px 20px 0px;
+		background:rgba(78, 75, 75, 0.5);
+	}
+	.about-us6{
+		width: 420px;
+	}
+	
 }
