@@ -51,7 +51,7 @@ table {
 	box-sizing: border-box;
 }
 .whole{
-	background: #0f292f;
+	background:white;
 }
 .logo{
 	margin-top: -28px;
@@ -69,10 +69,10 @@ table {
 
 a{
 	display: inline-block;
-	width: 10%;
+	width: 8%;
 	margin-left: 150px;
 	text-decoration: none;
-    color: #14A098;
+    color: black;
 	font-family: Arial, Helvetica, sans-serif;
 	letter-spacing: 2px;
 }
@@ -93,34 +93,40 @@ a{
 }
 p{
 	background: none;
+	font-family: 'Ubuntu', sans-serif;
 }
 .main-header{
 	font-size: 2rem;
 	display: flex;
 	justify-content: center;
-	color: #cb2d6f;
+	color:black;
+}
+.about h1{
+	font-family: 'American Typewriter', serif;
 }
 .about-us{
 	border: 1px solid black;
+	border-radius: 10px;
     width: 500px;
     height: 259px;
     margin: 40px 30px 20px 80px; ;
 	padding: 20px;
-	color: #cccccc;
-	background:rgba(78, 75, 75, 0.5);
+	color: black;
+	background: #ffdf46;
 }
 .about-us2{
 	border: 1px solid black;
+	border-radius: 10px;
     width: 500px;
     height: 259px;
     padding: 20px;
     margin-left: 10px;
 	margin-top: 20px;
-	color: #cccccc;
-	background:rgba(78, 75, 75, 0.5);
+	color: black;
+	background:#ffdf46;
 }
 img {
-	display: block;
+	display: flex;
 	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
@@ -128,27 +134,31 @@ img {
 }
 .about-us3{
 	border: 1px solid black;
+	border-radius: 10px;
     width: 500px;
     height: 259px;
-    padding: 20px;
+	padding: 20px;
+	margin-top: 60px;
 	margin-left: 110px;
-	color: #cccccc;
-	background:rgba(78, 75, 75, 0.5);
+	color: black;
+	background:#ffdf46;
 }
 .about-us4{
-    border: 1px solid black;
+	border: 1px solid black;
+	border-radius: 10px;
     width: 500px;
     height: 259px;
     padding: 20px;
     margin-left: 40px;
     margin-right: 40px;
     margin-bottom: 46px;
-	margin-top: 35px;
-	color: #cccccc;
-	background:rgba(78, 75, 75, 0.5);
+	margin-top: 105px;
+	color: black;
+	background:#ffdf46;
 }
 .about-us5{
 	border: 1px solid black;
+	border-radius: 10px;
     width: 500px;
     height: 259px;
     padding: 20px;
@@ -156,12 +166,13 @@ img {
     margin-right: 40px;
     margin-bottom: 46px;
 	margin-top: 205px;
-	color: #cccccc;
-	background:rgba(78, 75, 75, 0.5);
+	color: black;
+	background:#ffdf46;
 }
 
 .about-us6{
-    border: 1px solid black;
+	border: 1px solid black;
+	border-radius: 10px;
     width: 500px;
     height: 259px;
     padding: 20px;
@@ -169,41 +180,17 @@ img {
     margin-right: 40px;
     margin-bottom: 6px;
 	margin-top: -308px;
-	color: #cccccc;
-	background:rgba(78, 75, 75, 0.5);
+	color: black;
+	background:#ffdf46;
 }
 
-/*CONTACT CSS*/
-.whole1{
-	background: #c53151;
-}
-.services-page h1, .idk{
-	display: flex;
-	justify-content: center;
-	color: snow;
-	font-size: 3rem;
-}
-.idk{ 
-	font-size: 1.5rem;
-	width: 50%;
-	text-align: center;
-	margin-left: 30%;
-	margin-top: 30px;
-}
-.aa{
-	display: inline-block;
-	justify-content: space-between;
-	width: 10%;
-	text-decoration: none;
-    color: yellow;
-	font-family: Arial, Helvetica, sans-serif;
-	letter-spacing: 2px;
-}
+
+
 
 @media(max-width: 500px){
 	.logo{
 		margin-top: -48px;
-		margin-left: 90px;
+		margin-left: 140px;
 	}
 	.mainNav{
 		display: flexbox;
@@ -233,15 +220,19 @@ img {
 	.about{
 		margin-top: 170px;
 	}
-	.about-us, .about-us2, .about-us3, .about-us4 {
+	.about-us, .about-us2, .about-us3, .about-us4{
 		border: 1px solid black;
 		width: 420px;
 		height: 250px;
-		margin: 40px 30px 20px 0px;
-		background:rgba(78, 75, 75, 0.5);
+		margin: 40px 30px 40px 0px;
+		background:#ffdf46;
 	}
-	.about-us6{
+	.about-us5, .about-us6{
 		width: 420px;
+		height: 250px;
+		margin: 120px 0px 0px -20px;
+		background:#ffdf46;
 	}
+	
 	
 }
