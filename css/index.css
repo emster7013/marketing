@@ -169,8 +169,7 @@ a {
   font-size: 1.8rem;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 98%;
-  margin-left: 20px;
+  width: 91%;
 }
 .mainNav a,
 a a {
@@ -187,7 +186,7 @@ a a:hover {
 @media (max-width: 500px) {
   .mainNavi {
     display: flex;
-    width: 95%;
+    width: 60%;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
@@ -214,17 +213,14 @@ a a:hover {
 .logo {
   margin-top: -28px;
 }
+.main-header {
+  text-align: center;
+  margin: 30px;
+}
 .Main-content {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-}
-.Main-content .about h1 {
-  display: flex;
-  background: none;
-  font-size: 2rem;
-  font-style: oblique;
   justify-content: center;
 }
 .Main-content .about-us {
@@ -232,317 +228,30 @@ a a:hover {
   border-radius: 10px;
   border: 1px solid black;
   color: black;
-  height: 250px;
-  margin: 40px 30px 20px 110px;
-  padding: 20px;
-  width: 500px;
-}
-.Main-content .about-us2 {
-  background: #ffdf46;
-  border-radius: 10px;
-  border: 1px solid black;
-  color: black;
-  height: 250px;
-  margin-left: 10px;
-  margin-top: 15px;
-  padding: 20px;
-  width: 500px;
-}
-.Main-content .about-us3 {
-  background: #ffdf46;
-  border-radius: 10px;
-  border: 1px solid black;
-  color: black;
-  height: 250px;
-  margin: 60px 20px 0px 195px;
-  padding: 20px;
-  width: 500px;
-}
-.Main-content .about-us4 {
-  background: #ffdf46;
-  border-radius: 10px;
-  border: 1px solid black;
-  color: black;
-  margin: 60px 75px 0px 50px;
+  margin: 20px;
   height: 250px;
   padding: 20px;
   width: 500px;
-}
-.Main-content .about-us5 {
-  border: 1px solid black;
-  border-radius: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  width: 500px;
-  height: 259px;
-  padding: 20px;
-  margin-left: -122px;
-  margin-right: 40px;
-  margin-bottom: 46px;
-  margin-top: 65px;
-  color: black;
-  background: #ffdf46;
-}
-.Main-content .about-us6 {
-  border: 1px solid black;
-  border-radius: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  width: 500px;
-  height: 259px;
-  padding: 20px;
-  margin-top: 20px;
-  margin-left: 15px;
-  margin-right: -235px;
-  margin-bottom: 6px;
-  color: black;
-  background: #ffdf46;
 }
 @media (max-width: 500px) {
   .logo {
     display: flex;
-    margin-left: 220px;
   }
   .Main-content {
     display: flex;
-    width: 98%;
-    flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     align-content: center;
   }
-  .about {
+  .Main-content .about {
     text-align: center;
-    margin-left: 20px;
   }
-  .about-us,
-  .about-us2,
-  .about-us3,
-  .about-us4,
-  .about-us5,
-  .about-us6 {
+  .Main-content .about-us {
     display: flex;
+    width: 98%;
     flex-wrap: wrap;
+    text-align: center;
     background: #ffdf46;
     border: 1px solid black;
-    margin: 40px 30px 40px 0px;
-    width: 98%;
+    margin: 20px;
   }
 }
-/*@color0: #ffdf46; // Appears 6 times
-
-.whole {
-	background:white;
-	width: 100%;
-.logo {
-	margin-top: -28px;
-}
-.mainNav {
-	display: flex;
-	font-size: 1rem;
-	height: 1rem;
-	margin-top: 10px;
-	padding: 15px;
-	text-decoration: none;
-}
-a {
-	color: black;
-	font-family: Arial, Helvetica, sans-serif;
-	letter-spacing: 2px;
-	margin-left: 150px;
-	text-decoration: none;
-	width: 100%;
-}
-
-.main-header {
-	color:black;
-	display: flex;
-	font-size: 2rem;
-	justify-content: center;
-}
-.about {
-	h1 {
-		font-family: 'American Typewriter', serif;
-	}
-}
-img {
-	display: flex;
-	height: 8rem;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 22px;
-}
-.Main-content {
-	align-items: center;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	h2 {
-		background: none;
-		font-size: 2rem;
-		font-style: oblique;
-		text-align: center;
-	}
-	
-	.about-us {
-		background: @color0;
-		border-radius: 10px;
-		border: 1px solid black;
-		color: black;
-		height: 250px;
-		margin: 40px 30px 20px 110px;
-		padding: 20px;
-		width: 500px;
-	}
-	.about-us2 {
-		background:@color0;
-		border-radius: 10px;
-		border: 1px solid black;
-		color: black;
-		height: 250px;
-		margin-left: 10px;
-		margin-top: 15px;
-		padding: 20px;
-		width: 500px;
-	}
-	.about-us3 {
-		background:@color0;
-		border-radius: 10px;
-		border: 1px solid black;
-		color: black;
-		height: 250px;
-		margin: 60px 20px 0px 195px;
-		padding: 20px;
-		width: 500px;
-	}
-	.about-us4{
-		background:@color0;
-		border-radius: 10px;
-		border: 1px solid black;
-		color: black;
-		margin: 60px 75px 0px 50px;
-		height: 250px;
-		padding: 20px;
-		width: 500px;
-	}
-	.about-us5{
-		border: 1px solid black;
-		border-radius: 10px;
-		display: flex;
-		flex-wrap: wrap;
-		width: 500px;
-		height: 259px;
-		padding: 20px;
-		margin-left: -122px;
-		margin-right: 40px;
-		margin-bottom: 46px;
-		margin-top: 65px;
-		color: black;
-		background:#ffdf46;
-	}
-	.about-us6{
-		border: 1px solid black;
-		border-radius: 10px;
-		display: flex;
-		flex-wrap: wrap;
-		width: 500px;
-		height: 259px;
-		padding: 20px;
-		margin-top: 20px;
-		margin-left: 15px;
-		margin-right: -235px;
-		margin-bottom: 6px;
-	
-		color: black;
-		background:#ffdf46;
-	}
-}
-}
-	
-	
-
-//Media Query
-// Color variables 
-
-
-
-
-@media(max-width: 500px) {
-	.mainNav{
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: flex-start;
-		text-decoration: none;
-		font-size: 1rem;
-		height: 1rem;
-	}
-	a{
-		
-		display: flex;
-		margin-top: 30px;
-		text-decoration: none;
-		letter-spacing: 2px;
-	}
-		a:hover {
-			color:rgb(253, 0, 0);
-		}
-	.main-header{
-		margin-top: 225px;
-	}
-.Main-content{
-	margin-top: 20px;
-.about-us {
-	display: flex;
-	flex-wrap: wrap;
-	background:@color0;
-	border: 1px solid black;
-	height: 250px;
-	margin: 40px 30px 40px 0px;
-	width: 500px;
-}
-	.about-us2 {
-	display: flex;
-	flex-wrap: wrap;
-	background:@color0;
-	border: 1px solid black;
-	height: 250px;
-	margin: 40px 30px 40px 0px;
-	width: 500px;
-	}
-	.about-us3 {
-	display: flex;
-	flex-wrap: wrap;
-	background:@color0;
-	border: 1px solid black;
-	height: 250px;
-	margin: 40px 30px 40px 0px;
-	width: 420px;
-	}
-	.about-us4 {
-	display: flex;
-	flex-wrap: wrap;
-	background:@color0;
-	border: 1px solid black;
-	height: 250px;
-	margin: 40px 30px 40px 0px;
-	width: 420px;
-	}
-	.about-us5 {
-	background:@color0;
-	border: 1px solid black;
-	height: 250px;
-	margin: 40px 30px 40px 0px;
-	width: 420px;
-	}
-	.about-us5{
-	width: 420px;
-	height: 250px;
-	margin: 120px 0px 0px -20px;
-	background:@color0;
-	}
-	.about-us6{
-	display: flex;
-	flex-wrap: wrap;
-	width: 40px;
-	}
-}
-}*/
