@@ -236,6 +236,7 @@ a a:hover {
 @media (max-width: 500px) {
   .logo {
     display: flex;
+    margin-left: 150px;
   }
   .Main-content {
     display: flex;
