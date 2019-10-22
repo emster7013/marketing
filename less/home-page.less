@@ -4,6 +4,7 @@
 .main-header{
     text-align: center;
     margin: 30px;
+    font-family: @h1font;
 }
 .Main-content {
 	align-items: center;
@@ -19,8 +20,11 @@
         margin: 20px;
 		height: 250px;
 		padding: 20px;
-		width: 500px;
-	}
+        width: 500px;
+        p{
+            font-family: @mainfont;
+        }
+    }
 	
 }
 @media @mobile{
@@ -33,8 +37,9 @@
         flex-direction: column;
         align-content: center;
     
-    .about{
+    .main-header{
         text-align: center;
+        font-family: @h1font;
     }
     .about-us {
         display: @display;
@@ -44,6 +49,9 @@
         background:@color0;
         border: 1px solid black;
         margin: 20px;
+        p{
+            font-family: @mainfont;
+        }
     }
 }
 }

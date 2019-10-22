@@ -216,6 +216,7 @@ a a:hover {
 .main-header {
   text-align: center;
   margin: 30px;
+  font-family: 'American typewriter', serif;
 }
 .Main-content {
   align-items: center;
@@ -233,6 +234,9 @@ a a:hover {
   padding: 20px;
   width: 500px;
 }
+.Main-content .about-us p {
+  font-family: 'Ubuntu', sans-serif;
+}
 @media (max-width: 500px) {
   .logo {
     display: flex;
@@ -243,8 +247,9 @@ a a:hover {
     flex-direction: column;
     align-content: center;
   }
-  .Main-content .about {
+  .Main-content .main-header {
     text-align: center;
+    font-family: 'American typewriter', serif;
   }
   .Main-content .about-us {
     display: flex;
@@ -254,5 +259,8 @@ a a:hover {
     background: #ffdf46;
     border: 1px solid black;
     margin: 20px;
+  }
+  .Main-content .about-us p {
+    font-family: 'Ubuntu', sans-serif;
   }
 }
