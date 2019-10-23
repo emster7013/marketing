@@ -1,0 +1,39 @@
+// Navigation Styles here
+@display: flex;
+.mainNav, a{
+    display: @display;
+    font-size: 1.8rem;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 91%;
+    a{
+    display: @display;
+    align-items: space-between;
+    color:black;
+    text-decoration: none;
+    border: none;
+    }
+    a:hover {
+        color:rgb(253, 0, 0);
+    }
+
+}
+@media @mobile {
+    .mainNavi{
+    display: @display;
+    width: 60%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    a{
+        display: @display;
+        font-size: 1.4rem;
+        align-items: space-between;
+        border: none;
+        
+    }
+    a:hover {
+        color:rgb(253, 0, 0);
+    }
+}
+}

@@ -1,0 +1,62 @@
+.logo {
+	margin-top: -28px;
+}
+.main-header{
+    text-align: center;
+    margin: 30px;
+    .about {
+        h1 {
+            font-family: 'Bitter', serif;
+        }
+    }
+}
+.Main-content {
+	align-items: center;
+	display: @display;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+	.about-us {
+		background:@color0;
+		border-radius: 10px;
+		border: 1px solid black;
+        color: black;
+        margin: 20px;
+		height: 250px;
+		padding: 20px;
+        width: 500px;
+        p{
+            font-family: @mainfont;
+        }
+    }
+	
+}
+@media @mobile{
+    .logo{
+        display: @display;
+        margin-left: 150px;
+    }
+    .Main-content{
+        display: @display;
+        flex-direction: column;
+        align-content: center;
+    
+    .main-header{
+        text-align: center;
+        font-family: 'Bitter', serif;
+        
+    }
+    .about-us {
+        display: @display;
+        width: 98%;
+        flex-wrap: wrap;
+        text-align: center;
+        background:@color0;
+        border: 1px solid black;
+        margin: 20px;
+        p{
+            font-family: @mainfont;
+        }
+    }
+}
+}
